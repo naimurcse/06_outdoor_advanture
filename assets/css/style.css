@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #021738bd;
+    /*    z-index: 2;*/
+}
+
+.navbar-brand img {
+    width: 146px;
+}
+
+.menu {}
+
+.menu ul {}
+
+.menu ul li {
+    margin-left: 18px;
+}
+
+.menu ul li a {
+    color: #fff !important;
+    font-size: 16px;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.menu ul li a:active {
+    color: #FB2056 !important;
+}
+
+.menu ul li a:hover {
+    color: #FB2056 !important;
+}
+
+a.btn-custom span {
+    color: #fff !important;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+a.btn-custom:hover span {
+    background-color: #FB2056 !important;
+    border: 1px solid #FB2056;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.heading h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #222222;
+}
+
+.heading h1:hover {
+    text-decoration: underline;
+}
+
+.heading span {
+    display: inline-block;
+    background: #FB2056;
+    height: 3px;
+    width: 90px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+    text-decoration: none;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    text-decoration: none;
+}
+
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+    cursor: pointer;
+}
+
+button.navbar-toggler {
+    color: #fff !important;
+    border-color: #fff !important;
+    outline: none;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-transform {
+    padding-top: 25px;
+}
+
+.vh-95 {
+    min-height: 95vh;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-content h2 {
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 0;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.banner-content span {
+    display: inline-block;
+    background: #FB2056;
+    height: 2px;
+    width: 100px;
+    transition: all 5s ease;
+    -webkit-transition: all 5s ease;
+    -moz-transition: all 5s ease;
+}
+
+.banner-content h1 {
+    font-size: 64px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.banner-content h2:hover,
+.banner-content h1:hover {
+    text-decoration: underline;
+}
+
+header:hover .banner-content span {
+    width: 60%;
+}
+
+.banner-content a {
+    color: #fff !important;
+    background-color: #FB2056 !important;
+    border: 1px solid #FB2056;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.banner-content a:hover {
+    color: #fff !important;
+    border: 1px solid #fff;
+    background-color: transparent !important;
+}
+
+/*Header End*/
+
+
+
+/*Blockquot Section Start*/
+.blockquot-section {
+    padding: 70px 0;
+    background-color: #F4F5F9;
+    background-image: url(../images/quote-1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-position-x: 20%;
+}
+
+.blockquot {
+    text-align: center;
+}
+
+.blockquot p {
+    font-size: 16px;
+    color: #222222;
+}
+
+.blockquot footer {
+    font-size: 16px;
+    color: #222222;
+}
+
+/*Blockquot Section End*/
+
+
+
+/*Coming Event Section Start*/
+.coming-event-section {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.coming-event-section .card {
+    border: none;
+}
+
+.coming-event-section .card img {}
+
+.coming-event-section .card-body {
+    margin-bottom: 40px;
+}
+
+.coming-event-section .card-body h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222222;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.coming-event-section .card-body p {
+    font-size: 16px;
+    color: #222222;
+    line-height: 1.8;
+}
+
+.coming-event-section .card-body a {
+    color: #fff !important;
+    background-color: #FB2056 !important;
+    border: 1px solid #FB2056;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.coming-event-section .card-title {}
+
+/*Coming Event Section End*/
+
+
+
+/*Traveling Section Start*/
+.traveling-section {
+    background-image: url(../images/section-bg-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+.traveling-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0217387a;
+}
+
+.traveling-content {
+    text-align: left;
+}
+
+.traveling-content .heading {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.traveling-content .heading h1 {
+    color: #fff;
+}
+
+.traveling-content .heading span {}
+
+.traveling-content p {
+    font-size: 16px;
+    color: #eaeaea;
+    line-height: 1.8;
+}
+
+.traveling-content a {
+    color: #fff !important;
+    background-color: #FB2056 !important;
+    border: 1px solid #FB2056;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 45px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.traveling-content a:hover {
+    color: #fff !important;
+    border: 1px solid #fff;
+    background-color: transparent !important;
+}
+
+/*Traveling Section End*/
+
+
+
+/*Upcoming Tour Section Start*/
+
+.upcoming-tour-section {
+    padding: 100px 0;
+}
+
+.upcoming-tour-content {}
+
+.upcoming-tour-content .heading {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.upcoming-tour-content .heading h1 {
+    line-height: 1.5;
+}
+
+.upcoming-tour-content .heading span {}
+
+.upcoming-tour-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #222222;
+}
+
+.upcoming-tour-content a {
+    color: #fff !important;
+    background-color: #FB2056 !important;
+    border: 1px solid #FB2056;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 45px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.upcoming-tour-content a:hover {
+    color: #222 !important;
+    border: 1px solid #222;
+    background-color: transparent !important;
+}
+
+/*Upcoming Tour Section End*/
+
+
+
+
+/*Footer Start*/
+#footer-section {
+    padding: 60px 0;
+    background-color: #191919;
+}
+
+.footer-content {}
+
+.footer-content p {
+    color: #D3D3D3;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*Footer End*/
+
+
+i.fas.fa-long-arrow-alt-right {
+    margin-left: 5px;
+}

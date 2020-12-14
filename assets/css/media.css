@@ -1,0 +1,143 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .menu ul {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .banner-content h1 {
+        font-size: 40px;
+    }
+
+    .banner-content h2 {
+        font-size: 18px;
+    }
+
+    .banner-content a {
+        margin-top: 40px;
+    }
+
+    .coming-event-section .card-body {
+        margin-bottom: 80px;
+    }
+
+    .traveling-content {
+        text-align: center;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .traveling-content .heading {
+        text-align: center;
+    }
+
+    .upcoming-tour-content .heading {
+        text-align: center;
+    }
+
+    .upcoming-tour-content {
+        text-align: center;
+    }
+
+    .footer-content p {
+        font-size: 12px;
+    }
+
+    .upcoming-tour-content {
+        margin-bottom: 40px;
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu ul {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .banner-content h1 {
+        font-size: 45px;
+    }
+
+    .banner-content h2 {
+        font-size: 20px;
+    }
+
+    .banner-content a {
+        margin-top: 30px;
+    }
+
+    .coming-event-section .card-body {
+        margin-bottom: 60px;
+    }
+
+    .traveling-content {
+        text-align: center;
+    }
+
+    .traveling-content .heading {
+        text-align: center;
+    }
+
+    .upcoming-tour-content .heading {
+        text-align: center;
+    }
+
+    .upcoming-tour-content {
+        text-align: center;
+    }
+
+    .footer-content p {
+        font-size: 14px;
+    }
+
+    .upcoming-tour-content {
+        margin-bottom: 40px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu ul {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .banner-content h1 {
+        font-size: 50px;
+    }
+
+    .banner-content h2 {
+        font-size: 22px;
+    }
+
+    .upcoming-tour-content {
+        margin-bottom: 40px;
+    }
+
+    .upcoming-tour-content .heading {
+        text-align: center;
+    }
+
+    .upcoming-tour-content {
+        text-align: center;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner-content h1 {
+        font-size: 55px;
+    }
+
+    .banner-content h2 {
+        font-size: 21px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
